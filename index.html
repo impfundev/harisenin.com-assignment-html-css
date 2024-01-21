@@ -37,7 +37,7 @@
     </script>
   </head>
   <body>
-    <main class="w-full flex items-start shrink-0">
+    <main class="w-full flex items-start">
       <section class="hidden md:block">
         <img
           class="w-screen h-screen object-cover"
@@ -56,7 +56,7 @@
               Nice to see you again
             </h1>
             <section class="flex flex-col items-start gap-3 self-stretch">
-              <label for="email" class="hidden">Email</label>
+              <label for="email" class="hidden md:block">Email</label>
               <input
                 type="text"
                 id="email"
@@ -65,7 +65,7 @@
                 placeholder="Email or phone number"
                 required
               />
-              <label for="password" class="hidden">Email</label>
+              <label for="password" class="hidden md:block">Password</label>
               <input
                 type="password"
                 id="password"
